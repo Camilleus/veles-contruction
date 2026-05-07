@@ -8,7 +8,7 @@ const services = [
     title: 'Generalne Wykonawstwo',
     icon: <Building2 className="w-8 h-8" />,
     short: 'Kompleksowa realizacja inwestycji od fundamentów po dach.',
-    details: 'Zapewniamy pełne zarządzanie procesem budowlanym, logistykę materiałową oraz nadzór techniczny. Nasze doświadczenie w Mazowszu gwarantuje terminowość i najwyższą jakość wykonania stanów surowych i zamkniętych.',
+    details: 'Zapewniamy kompleksowe zarządzanie procesem budowlanym, logistykę materiałową oraz rygorystyczny nadzór techniczny. Nasze doświadczenie na terenie Mazowsza gwarantuje terminowość i najwyższą jakość wykonania stanów surowych oraz deweloperskich.',
   },
   {
     id: 'design',

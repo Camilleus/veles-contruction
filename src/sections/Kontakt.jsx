@@ -29,8 +29,8 @@ const Kontakt = () => {
                 </div>
                 <div>
                   <p className="text-[10px] uppercase tracking-[0.2em] text-gray-500 font-bold mb-1">Adres Biura</p>
-                  <p className="text-xl font-bold uppercase">ul. Przemysłowa 42, Warszawa</p>
-                  <p className="text-gray-400">00-001 Mazowieckie, Polska</p>
+                  <p className="text-xl font-bold uppercase">ul. Emilii Plater 53, Warszawa</p>
+                  <p className="text-gray-400">00-113 Mazowieckie, Polska</p>
                 </div>
               </div>
 

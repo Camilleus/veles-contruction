@@ -41,9 +41,11 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
-        <a href="#" className="flex items-center gap-3 group">
-          <img src={logoAlone} alt="Veles" className="h-8 w-auto" />
-          <span className="font-display font-bold text-xl tracking-tighter uppercase group-hover:text-accent transition-colors">
+        <a href="#" className="flex items-center gap-4 group">
+          <div className="bg-white p-1.5 flex items-center justify-center">
+            <img src={logoAlone} alt="Veles" className="h-6 w-auto" />
+          </div>
+          <span className="font-display font-black text-xl tracking-tighter uppercase text-white">
             Veles Construction
           </span>
         </a>

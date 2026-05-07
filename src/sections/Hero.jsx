@@ -12,7 +12,7 @@ const Hero = () => {
         transition={{ duration: 2, ease: "easeOut" }}
         className="absolute inset-0 flex items-center justify-center pointer-events-none z-0"
       >
-        <img src={logoAlone} alt="" className="w-[80vw] max-w-[800px] object-contain rotate-12" />
+        <img src={logoAlone} alt="" className="w-[80vw] max-w-[1000px] object-contain rotate-[15deg] opacity-50" />
       </motion.div>
 
       <div className="container mx-auto px-6 relative z-10 text-center">
@@ -22,11 +22,11 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
         >
           <span className="text-accent font-bold tracking-[0.3em] uppercase text-sm mb-6 block">
-            Masovia, Poland
+            Mazowsze, Polska
           </span>
-          <h1 className="text-6xl md:text-8xl font-display font-black leading-none uppercase mb-8">
+          <h1 className="text-6xl md:text-[120px] font-display font-black leading-[0.8] uppercase mb-12 tracking-tighter">
             Solidność <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white/40">
+            <span className="text-white/20">
               Wpisana w beton
             </span>
           </h1>

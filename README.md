@@ -1,59 +1,16 @@
-# Veles Construction - Ultra-Minimalist Industrial Landing Page
+# React + Vite
 
-This is a modern, high-end landing page for Veles Construction, built with React, Tailwind CSS, and Framer Motion.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🚀 How to Run Locally
+Currently, two official plugins are available:
 
-To view the website on your local machine:
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-1. **Install Dependencies:**
-   Make sure you have [Node.js](https://nodejs.org/) installed, then run:
-   ```bash
-   npm install
-   ```
+## React Compiler
 
-2. **Start Development Server:**
-   Run the following command to start the site in development mode:
-   ```bash
-   npm run dev
-   ```
-   After running this, the terminal will provide a link (usually `http://localhost:5173`). Open this link in your browser.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 🏗️ Building for Production
+## Expanding the ESLint configuration
 
-To create a production-ready version of the site:
-
-```bash
-npm run build
-```
-This will generate a `dist` folder. The contents of this folder are what you need to upload to your web server or hosting provider.
-
-## 🌐 How to Host on GitHub Pages
-
-If you want to host this on GitHub Pages, follow these steps:
-
-1. **GitHub Actions (Recommended):**
-   Push your code to a GitHub repository. Go to **Settings > Pages** and under **Build and deployment > Source**, select **GitHub Actions**. Use the standard "Static HTML" or "Vite" workflow.
-
-2. **Manual Deployment:**
-   If you want to deploy manually, you can use the `gh-pages` package:
-   ```bash
-   npm install -D gh-pages
-   ```
-   Add these scripts to your `package.json`:
-   ```json
-   "predeploy": "npm run build",
-   "deploy": "gh-pages -d dist"
-   ```
-   Then run `npm run deploy`.
-
-## 🛠️ Tech Stack
-- **React** (v18)
-- **TypeScript**
-- **Tailwind CSS** (Styling)
-- **Framer Motion** (Animations)
-- **Lucide React** (Icons)
-- **Vite** (Build Tool)
-
----
-Designed for top-tier developers. Veles Construction.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

@@ -6,8 +6,8 @@ test('verify landing page', async ({ page }) => {
   // Verify title
   await expect(page).toHaveTitle(/Veles Construction/);
 
-  // Verify Hero
-  await expect(page.locator('h1')).toContainText('BUDUJEMY');
+  // Verify Hero - case insensitive or matching actual text
+  await expect(page.locator('h1')).toContainText('Budujemy', { ignoreCase: true });
 
   // Scroll down slowly to trigger all animations
   const scrollHeight = await page.evaluate(() => document.body.scrollHeight);

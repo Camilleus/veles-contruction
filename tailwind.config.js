@@ -2,17 +2,17 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,tsx,jsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
       colors: {
-        background: "#0a0a0a",
-        primary: "#E31E24", // Vibrant Red
+        background: '#0a0a0a',
+        accent: '#E31E24', // Vibrant Red from logo
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
-        montserrat: ['Montserrat', 'sans-serif'],
+        sans: ['Inter', 'Montserrat', 'sans-serif'],
+        display: ['Montserrat', 'sans-serif'],
       },
     },
   },

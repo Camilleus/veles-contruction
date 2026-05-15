@@ -3,9 +3,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Briefcase, Send, X } from 'lucide-react';
 
 const jobs = [
-  { id: 1, title: 'Kierownik Budowy', location: 'Warszawa / Mazowieckie', type: 'Full-time' },
-  { id: 2, title: 'Inżynier Projektu', location: 'Warszawa', type: 'Contract' },
-  { id: 3, title: 'Brygadzista', location: 'Mazowsze (Różne lokalizacje)', type: 'Full-time' },
+  { id: 1, title: 'Kierownik Budowy', location: 'Warszawa / Mazowieckie', type: 'Pełny etat' },
+  { id: 2, title: 'Inżynier Projektu', location: 'Warszawa', type: 'Kontrakt / B2B' },
+  { id: 3, title: 'Brygadzista', location: 'Mazowsze (Różne lokalizacje)', type: 'Pełny etat' },
 ];
 
 const Kariera = () => {
